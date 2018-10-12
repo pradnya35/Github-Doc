@@ -7,7 +7,7 @@
     * git config --global user.email "computers.tmk@gmail.com"
     * git config core.editor "notepad++ -multiInst -nosession"
     * git config --edit --global
-# Creating Git  repository on local machine
+# Creating Git repository on local machine
 *  Run below commands 
    * git init DemoApp
    * cd DemoApp
@@ -19,6 +19,18 @@
    * notepad README.md
                OR
    *  touch README.md
+   * Add some content in README.md file 
+   * git add README.md. I have added Hello Shreyansh and save it.
+*  Then check status again which shows status that we have an untracked file
+      git status
+*  Track the changes in README.md file with command
+   git add README.md
+*  If we have multiple new and edited files then we can track them all with a single command
+   *  git add .
+*  Then check status again which shows status that we have a staged file
+   *  git status
+*  Now we can commit the file with readable message
+   *  git commit -m "Intitial Commit"
 
 
 
