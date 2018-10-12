@@ -22,9 +22,9 @@
    * Add some content in README.md file 
    * git add README.md. I have added Hello Shreyansh and save it.
 *  Then check status again which shows status that we have an untracked file
-      git status
-*  Track the changes in README.md file with command
-   git add README.md
+   *  git status
+*  Track the changes in README.md file with command.
+   *  git add README.md
 *  If we have multiple new and edited files then we can track them all with a single command
    *  git add .
 *  Then check status again which shows status that we have a staged file
